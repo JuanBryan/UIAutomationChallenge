@@ -17,13 +17,14 @@ You must run the following commands to prepare your code to be executed:
 ```
 cd [project_path]
 ```
+```
 dotnet build
 ```
 ```
 gauge validate
 ```
 
-### Run tests
+### For Run tests use
 ```
 gauge run specs
 ```
