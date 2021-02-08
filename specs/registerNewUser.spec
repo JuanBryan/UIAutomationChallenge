@@ -1,3 +1,4 @@
+tags: UiTest
 # Register a new Users
     This feature will contains all the scenarios relationed with the creation
     of new users; this will be use a generator of data.

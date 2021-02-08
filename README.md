@@ -1,4 +1,4 @@
-# Tranzact Automation Challenge UI
+# Tranzact Automation Challenge UI And API
 ## Getting started
 ### Prerequisites
 - You must have Microsoft (R) Build Engine versión 15.9.21 or higher
@@ -24,7 +24,17 @@ dotnet build
 gauge validate
 ```
 
-### For Run tests use
+### For Run all the tests, use:
 ```
 gauge run specs
+```
+
+### For Run only API, use:
+```
+gauge run -t "api"
+```
+
+### For Run only UI, use:
+```
+gauge run -t "UiTest"
 ```

@@ -83,6 +83,12 @@ namespace UIAutomationChallenge.Driver
             Assert.AreEqual(expected, actual, message);
         }
 
+        public void AreEqual(int expected, int actual, string message)
+        {
+            WriteMessage("Expected: " + expected + "  Actual: " + actual + "  - Checking the assertion...");
+            Assert.AreEqual(expected, actual, message);
+        }
+
         public void WriteMessage(string message)
         {
             Console.WriteLine(message);
